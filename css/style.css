@@ -1,0 +1,133 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 2em 0;
+    border-bottom: 1px solid #e3c586;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #b39dd4;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 960px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #b39dd4;
+    border-bottom: 2px solid #e3c586;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.estadistica-imagen {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.estadistica-imagen img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.nota {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 0.5em;
+    display: block;
+}
+
+#contenido-adicional article {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #eee;
+}
+
+#contenido-adicional article:last-child {
+    border-bottom: none;
+}
+
+#contenido-adicional h3 {
+    color: #e3c586;
+    margin-top: 0;
+}
+
+#comentarios form {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #eee;
+}
+
+#comentarios textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#comentarios button {
+    background-color: #b39dd4;
+    color: #ffffff;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+#comentarios button:hover {
+    background-color: #9a85b9;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #f0f0f0;
+    color: #777;
+    font-size: 0.8em;
+    border-top: 1px solid #ddd;
+}
+
+.nota-estudiantil {
+    font-size: 0.7em;
+}
