@@ -1,29 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encontrando Esperanza</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desapariciones en México - 2024</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Encontrando Esperanza</h1>
-        <p>Una luz en la búsqueda de personas desaparecidas.</p>
-    </header>
+  <header>
+    <h1>Desapariciones en México - 2024</h1>
+    <nav>
+      <ul>
+        <li><a href="#estadisticas">Estadísticas</a></li>
+        <li><a href="#blog">Blog</a></li> <li><a href="#comentarios">Comentarios</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="estadisticas">
-        <h2>Estadísticas de Desapariciones en México (2024)</h2>
-        <div class="estadistica-imagen">
-            <img src="img/estadisticas_desapariciones_2024.png" alt="Gráfico de estadísticas de desapariciones en México en 2024">
-            <p class="nota">Fuente: Datos preliminares de organizaciones civiles y gubernamentales.</p>
-        </div>
-        <p>Es crucial comprender la magnitud de esta problemática para impulsar la acción y la solidaridad.</p>
-    </section>
+  <section id="estadisticas">
+    <h2>Estadísticas de Desapariciones</h2>
+    <div class="estadistica">
+      <img src="estadistica1.jpg" alt="Estadística 1" width="600" height="500">
+      <p>En 2024, se registraron más de 13,000 desapariciones en México, la cifra más alta en la historia.</p>
+    </div>
+    <div class="estadistica">
+      <img src="estadistica2.jpg" alt="Estadística 2">
+      <p>El incremento de las desapariciones ocurrieron desde 2009, afectando principalmente a hombres jóvenes y mujeres adolescentes.</p>
+    </div>
+  </section>
 
-    <section id="contenido-adicional">
-        <h2>Información Relevante</h2>
-        <article>
-            <h3>¿Qué hacer en caso de desaparición?</h3>
-            <p>Ante la desaparición de una persona, es fundamental actuar con rapidez y seguir los siguientes pasos:</p>
+  <section id="blog">
+    <h2>Blog: Artículos y Reflexiones</h2>
+    <div class="blog-entry">
+      <h3>El Impacto Social de las Desapariciones</h3>
+      <img src="blog-image-1.jpg" alt="Imagen de Blog 1" style="width:100%; max-width:600px; height:auto; display:block; margin: 15px 0;">
+      <p>Las desapariciones en México no solo representan una tragedia para las familias, sino que también tienen un profundo impacto en el tejido social. La desconfianza en las instituciones, el miedo constante y la alteración de la vida comunitaria son solo algunas de las consecuencias. Es crucial abordar este problema desde múltiples perspectivas para sanar a la sociedad.</p>
+    </div>
+    <div class="blog-entry">
+      <h3>Historias de Resistencia y Búsqueda</h3>
+      <img src="blog-image-2.jpg" alt="Imagen de Blog 2" style="width:100%; max-width:600px; height:auto; display:block; margin: 15px 0;">
+      <p>A pesar del dolor, muchas familias han transformado su sufrimiento en una fuerza imparable para la búsqueda de sus seres queridos. Colectivos de madres buscadoras, organizaciones civiles y activistas trabajan incansablemente para visibilizar el problema y exigir justicia. Sus historias son un testimonio de resiliencia y esperanza en medio de la adversidad.</p>
+    </div>
+  </section>
+
+  <section id="comentarios">
+    <h2>Deja tu Comentario</h2>
+    <form id="form-comentarios">
+      <textarea id="comentario" placeholder="Escribe tu comentario..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="comentarios-lista">
+      </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Trabajo estudiantil UVM</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
