@@ -1,133 +1,162 @@
+/* Estilos generales */
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
-    line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 header {
-    background-color: #ffffff;
-    color: #333;
-    text-align: center;
-    padding: 2em 0;
-    border-bottom: 1px solid #e3c586;
+  background-color: #e3c586;
+  padding: 20px;
+  text-align: center;
 }
 
 header h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-    color: #b39dd4;
+  margin: 0;
+  color: #fff;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 1em;
+  display: inline;
+  margin: 0 10px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #555;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-section {
-    padding: 2em;
-    margin: 2em auto;
-    max-width: 960px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Sección de estadísticas */
+#estadisticas {
+  padding: 40px 20px;
+  background-color: #ffffff;
 }
 
-section h2 {
-    color: #b39dd4;
-    border-bottom: 2px solid #e3c586;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
+#estadisticas h2 {
+  text-align: center;
+  color: #b39dd4;
 }
 
-.estadistica-imagen {
-    text-align: center;
-    margin-bottom: 1em;
+.estadistica {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
 }
 
-.estadistica-imagen img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+.estadistica img {
+  width: 45%;
+  border-radius: 8px;
 }
 
-.nota {
-    font-size: 0.8em;
-    color: #777;
-    margin-top: 0.5em;
-    display: block;
+.estadistica p {
+  width: 45%;
+  align-self: center;
+  font-size: 1.1em;
+  color: #333;
 }
 
-#contenido-adicional article {
-    margin-bottom: 1.5em;
-    padding-bottom: 1.5em;
-    border-bottom: 1px solid #eee;
+/* Sección de comentarios */
+#comentarios {
+  padding: 40px 20px;
+  background-color: #ffffff;
 }
 
-#contenido-adicional article:last-child {
-    border-bottom: none;
+#comentarios h2 {
+  text-align: center;
+  color: #b39dd4;
 }
 
-#contenido-adicional h3 {
-    color: #e3c586;
-    margin-top: 0;
+#form-comentarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#comentarios form {
-    margin-top: 2em;
-    padding-top: 1em;
-    border-top: 1px solid #eee;
+#comentario {
+  width: 80%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }
 
-#comentarios textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: 'Open Sans', sans-serif;
+button {
+  padding: 10px 20px;
+  background-color: #b39dd4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-#comentarios button {
-    background-color: #b39dd4;
-    color: #ffffff;
-    border: none;
-    padding: 0.8em 1.5em;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
+button:hover {
+  background-color: #9a7bbf;
 }
 
-#comentarios button:hover {
-    background-color: #9a85b9;
+#comentarios-lista {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
 }
 
+#comentarios-lista p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Pie de página */
 footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #f0f0f0;
-    color: #777;
-    font-size: 0.8em;
-    border-top: 1px solid #ddd;
+  background-color: #e3c586;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  color: #fff;
 }
 
-.nota-estudiantil {
-    font-size: 0.7em;
+#blog {
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the section */
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+#blog h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.blog-entry {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.blog-entry h3 {
+  color: #0056b3; /* Or a color that matches your theme */
+  margin-bottom: 10px;
+}
+
+.blog-entry img {
+  border-radius: 5px; /* Slightly rounded corners for images */
+}
+
+.blog-entry p {
+  line-height: 1.6;
+  color: #555;
 }
